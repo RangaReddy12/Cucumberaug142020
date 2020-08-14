@@ -26,6 +26,10 @@ Examples:
 |firefox|Admin|Qedge123!@#|
 |chrome|Admin|Qedge123!@#|
 |firefox|Admin|Qedge123!@#|
-
+@Testdata
+Scenario: login test
+Given user launches url in chrome
+When user enter username and password
+When user click on login button
 
 
